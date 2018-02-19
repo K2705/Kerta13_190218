@@ -34,12 +34,16 @@ namespace Teht1___String
 
         public static void PrintReverse(string str)
         {
-            char[] print = new char[str.Length];
-            for (int i = 0; i < str.Length; i++)
-            {
-                print[i] = str[str.Length - 1 - i];
-            }
-            Console.WriteLine(new string(print));
+            char[] reverse = str.ToCharArray();
+            Array.Reverse(reverse);
+            Console.WriteLine( new string(reverse));
+
+            //char[] print = new char[str.Length];
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    print[i] = str[str.Length - 1 - i];
+            //}
+            //Console.WriteLine(new string(print));
         }
     }
 }
