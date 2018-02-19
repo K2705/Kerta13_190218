@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht1 - String", "Teht1 - String\Teht1 - String.csproj", "{316F27C7-2A55-4C75-AF3F-91215AC7D61E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht2_MyMailBook", "MyMailBook\Teht2_MyMailBook.csproj", "{AE9C4615-EE20-4603-8D58-76F5E5085CDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{316F27C7-2A55-4C75-AF3F-91215AC7D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316F27C7-2A55-4C75-AF3F-91215AC7D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316F27C7-2A55-4C75-AF3F-91215AC7D61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9C4615-EE20-4603-8D58-76F5E5085CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9C4615-EE20-4603-8D58-76F5E5085CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9C4615-EE20-4603-8D58-76F5E5085CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9C4615-EE20-4603-8D58-76F5E5085CDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
